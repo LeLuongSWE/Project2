@@ -1,0 +1,29 @@
+\documentclass{book}
+\usepackage{graphicx}
+\usepackage[utf8]{vietnam}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt} % tăng headheight để đảm bảo hiển thị header
+
+\begin{document}
+
+\author{Lê Đức Lương}
+\title{Tài liệu}
+\maketitle
+
+% Chuyển sang kiểu trang fancy cho các trang nội dung tiếp theo:
+\fancypagestyle{plain}{
+  \fancyhf{} % xóa header/footer mặc định
+  \fancyhead[L]{Báo cáo project 2}
+  \fancyhead[R]{Báo cáo project 2}
+  \fancyfoot[L]{Lê Đức Lương}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}  % đường kẻ header
+  \renewcommand{\footrulewidth}{0.4pt}  % đường kẻ footer (nếu cần)
+}
+\chapter{Giới thiệu}
+Nội dung chương 1.
+
+\newpage
+Trang mới để kiểm tra hea
+
+\end{document}
