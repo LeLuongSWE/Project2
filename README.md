@@ -12,7 +12,9 @@ Khách hàng khi sử dụng phần mềm sẽ được xem các thông tin liê
 
 Người dùng khi truy cập vào trang web của nhà hàng, màn hình sẽ hiển thị lên trang chủ của nhà hàng. Trang chủ này sẽ bao gồm các thông tin khái quát về nhà hàng bao gồm các bức ảnh về không gian, món ăn và khách hàng đã từng đến nhà hàng. Ngoài ra, trang chủ còn có các thông tin về các sự kiện của nhà hàng trong thời gian tới giúp khách hàng có thể theo dõi nhà hàng, các thông tin về địa chỉ, thông tin liên lạc của nhà hàng.
 
-Khách hàng có thể chọn đăng nhập hoặc không. Nếu không đăng nhập, khách hàng chỉ có thể đặt bàn và liên lạc với quản lý qua số điện thoại và mạng xã hội. Nếu đăng nhập, khách hàng có thể xem thông tin về tình trạng bàn ăn hiện tại, đặt bàn trực tiếp trên web và tham gia vào sự kiện do nhà hàng tổ chức. Ngoài ra, khách hàng có thể quản lý thông tin cá nhân, quản lý lịch sử đặt bàn và gọi món, theo dõi trạng thái đặt bàn, nhận những thông báo từ nhà hàng dành riêng cho khách hàng và feedback lại cho nhà hàng theo từng món ăn hoặc không.
+Khách hàng có thể chọn đăng nhập hoặc không. Nếu không đăng nhập, khách hàng chỉ có thể đặt bàn và liên lạc với quản lý qua số điện thoại và mạng xã hội. Nếu đăng nhập, khách hàng có thể xem thông tin về tình trạng bàn ăn hiện tại, đặt bàn trực tiếp trên web và tham gia vào sự kiện do nhà hàng tổ chức.
+
+Ngoài ra, khách hàng có thể quản lý thông tin cá nhân, quản lý lịch sử đặt bàn và gọi món, theo dõi trạng thái đặt bàn, nhận những thông báo từ nhà hàng dành riêng cho khách hàng và feedback lại cho nhà hàng theo từng món ăn hoặc không.
 
 Khách hàng khi đăng ký sẽ cần cung cấp những thông tin như email, họ và tên, ngày tháng năm sinh và mật khẩu. Khách hàng có thể đăng ký sử dụng google và facebook.
 
