@@ -1,0 +1,23 @@
+
+
+#header{
+    height: 7vw;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#header img{
+    height: inherit;
+    width: inherit;
+    max-width: min-content;
+    align-self: center;
+}
+
+#header button{
+    /* position: absolute; */
+    align-self: flex-end;
+    
+}
