@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+/backend/obj
+/backend/obj
+/backend/.vs/backend/CopilotIndices
+/backend/.vs/backend

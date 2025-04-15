@@ -35,3 +35,40 @@ C:\Users\luong\Personal Data\HUST\IT3930 Project 2\Project2\backend\obj\Debug\ne
 C:\Users\luong\Personal Data\HUST\IT3930 Project 2\Project2\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\luong\Personal Data\HUST\IT3930 Project 2\Project2\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\luong\Personal Data\HUST\IT3930 Project 2\Project2\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\appsettings.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.staticwebassets.endpoints.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.exe
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.deps.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.runtimeconfig.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\backend.pdb
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.AssemblyInfoInputs.cache
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.AssemblyInfo.cs
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\scopedcss\bundle\backend.styles.css
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets\msbuild.build.backend.props
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.csproj.Up2Date
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.pdb
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
+C:\Users\NCPC\OneDrive\Máy tính\School\Project dev\Project2\backend\obj\Debug\net8.0\ref\backend.dll
