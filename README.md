@@ -10,19 +10,19 @@ Nhà hàng cần hệ thống phần mềm để quản lý khách hàng, nhân 
 
 Khách hàng khi sử dụng phần mềm sẽ được xem các thông tin liên quan đến nhà hàng bao gồm thực đơn, tình trạng bàn ăn hiện tại, các thông báo đến với khách hàng. Ngoài ra, nhà hàng còn chia sẻ các bài viết liên quan đến các cách chế biến của các món ăn, giúp người dùng có thêm góc nhìn về nhà hàng.
 
-Người dùng khi truy cập vào trang web của nhà hàng, màn hình sẽ hiển thị lên trang chủ của nhà hàng. Trang chủ này sẽ bao gồm các thông tin khái quát về nhà hàng bao gồm các bức ảnh về không gian, món ăn và khách hàng đã từng đến nhà hàng. Ngoài ra, trang chủ còn có các thông tin về các sự kiện của nhà hàng trong thời gian tới giúp khách hàng có thể theo dõi nhà hàng, các thông tin về địa chỉ, thông tin liên lạc của nhà hàng.
+Người dùng khi truy cập vào trang web của nhà hàng, màn hình sẽ hiển thị lên trang chủ của nhà hàng. Trang chủ này sẽ bao gồm các thông tin khái quát về nhà hàng bao gồm các bức ảnh về không gian, món ăn và khách hàng đã từng đến nhà hàng. Ngoài ra, trang chủ còn có các thông tin về các thông tin về địa chỉ, thông tin liên lạc của nhà hàng.
 
-Khách hàng có thể chọn đăng nhập hoặc không. Nếu không đăng nhập, khách hàng chỉ có thể đặt bàn và liên lạc với quản lý qua số điện thoại và mạng xã hội. Nếu đăng nhập, khách hàng có thể xem thông tin về tình trạng bàn ăn hiện tại, đặt bàn trực tiếp trên web và tham gia vào sự kiện do nhà hàng tổ chức.
+Khách hàng có thể chọn đăng nhập hoặc không. Nếu không đăng nhập, khách hàng chỉ có thể đặt bàn và liên lạc với quản lý qua số điện thoại và mạng xã hội. Nếu đăng nhập, khách hàng có thể xem thông tin về tình trạng bàn ăn hiện tại, đặt bàn trực tiếp trên web.
 
 Ngoài ra, khách hàng có thể quản lý thông tin cá nhân, quản lý lịch sử đặt bàn và gọi món, theo dõi trạng thái đặt bàn, nhận những thông báo từ nhà hàng dành riêng cho khách hàng và feedback lại cho nhà hàng theo từng món ăn hoặc không.
 
-Khách hàng khi đăng ký sẽ cần cung cấp những thông tin như email, họ và tên, ngày tháng năm sinh và mật khẩu. Khách hàng có thể đăng ký sử dụng google và facebook.
+Khách hàng khi đăng ký sẽ cần cung cấp những thông tin như email, họ và tên, ngày tháng năm sinh và mật khẩu. Khách hàng có thể đăng ký sử dụng google và facebook. Nhân viên đăng ký cho khách hàng sau khi thanh toán.
 
-Khách hàng sau khi đăng ký có thể nhận các thông báo mới của các sự kiện, các ưu đãi hay các thông báo riêng cho người dùng.  
+Khách hàng sau khi đăng ký có thể nhận các thông báo mới của các ưu đãi hay các thông báo chung của nhà hàng.  
 
-Khách hàng khi đặt bàn cần cung cấp các thông tin như ngày giờ đến nhà hàng, số lượng người, số lượng bàn, tính chất của sự kiện.
+Khách hàng khi đặt bàn cần cung cấp các thông tin như ngày giờ đến nhà hàng, số lượng người, các món ăn và thanh toán tiền cọc.
 
-Khách hàng chỉ được phép đặt lịch sự kiện khi đã đăng nhập. Khi đăng ký sự kiện, khách hàng sẽ được yêu cầu thanh toán tiền cọc trước. Sau khi thanh toán tiền cọc thì sẽ được xác nhận thành công.
+Khách hàng có lựa chọn thanh toán trước trên app sau khi đặt bàn và thanh toán sau. Thanh toán sau có lựa chọn thanh toán tiền mặt / chuyển khoản.
 
 ### Actor: Nhân viên
 
