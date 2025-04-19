@@ -39,3 +39,15 @@ out/
 /backend/obj
 /backend/.vs/backend/CopilotIndices
 /backend/.vs/backend
+/backend/.vs
+*.config
+*.db
+/backend/backend/Properties
+/backend/backend/obj
+/backend/.vs/backend/config
+backend/.vs/backend/config/applicationhost.config
+/backend/.vs
+/backend/backend/.vs
+/backend/.vs
+backend/.vs/ProjectEvaluation/backend.metadata.v9.bin
+/backend/obj
