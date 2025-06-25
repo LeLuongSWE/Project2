@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Chuong/0_3_Tom_tat_noi_dung.blg'
+[38] biber:340> INFO - === Sun Jun  8, 2025, 20:32:17
+[48] Biber.pm:420> INFO - Reading 'Chuong/0_3_Tom_tat_noi_dung.bcf'
+[87] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[95] bbl.pm:676> INFO - Writing 'Chuong/0_3_Tom_tat_noi_dung.bbl' with encoding 'UTF-8'
+[95] bbl.pm:779> INFO - Output to Chuong/0_3_Tom_tat_noi_dung.bbl
+[95] Biber.pm:131> WARN - The file 'Chuong/0_3_Tom_tat_noi_dung.bcf' does not contain any citations!
+[95] Biber.pm:133> INFO - WARNINGS: 1
