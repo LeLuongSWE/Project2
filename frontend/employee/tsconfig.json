@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": true      // để cho phép build từng project riêng
+  },
+  "include": ["src"],
+  "references": []        // nếu app con này còn “nested” project khác, bạn có thể thêm
+}

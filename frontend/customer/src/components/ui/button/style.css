@@ -1,0 +1,21 @@
+.button{
+    border: solid  var(--brown);
+    background-color: var(--yellow);
+    /* height: 35%; */
+    padding: 12px 12px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: fit-content;
+    align-self: center;
+}
+
+
+.sign-in-button, .booking-button {
+    font-size: small;
+}
+
+.button:hover {
+    background-color: var(--brown);
+    cursor: pointer;
+    color: var(--yellow);
+}

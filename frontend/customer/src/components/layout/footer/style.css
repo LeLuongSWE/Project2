@@ -1,0 +1,28 @@
+.footer {
+  background-color: #593C1F;
+  color: #fff;
+  padding: 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  gap: 20em;
+  flex-wrap: wrap;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li, p {
+  margin: 1rem 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}

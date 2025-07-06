@@ -1,7 +1,24 @@
 {
   "files": [],
+
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "strict": true,
+    "composite": true,              // cần để tham chiếu project
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["shared/*"]
+    },
+    "types": ["vite/client"]
+  },
+
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "customer/tsconfig.json" },
+    { "path": "employee/tsconfig.json" },
+    { "path": "manager/tsconfig.json" }
   ]
 }

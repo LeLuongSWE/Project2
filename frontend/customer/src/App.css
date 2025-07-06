@@ -1,0 +1,14 @@
+*:hover {
+    transition: color 0.2s;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --yellow: #eeddbf;
+    --brown: #522e16;
+    --dark-yellow: #eccf9c;
+
+}
