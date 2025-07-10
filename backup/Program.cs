@@ -3,11 +3,9 @@ using Backend.Data;
 using Backend.Services;
 using Backend.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Backend.Settings;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -19,45 +17,26 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
-
-var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtSettings>() ?? throw new InvalidOperationException("JWT settings are not configured properly.");
-
-builder.Services.AddAuthentication(options =>
-{
-  options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-  options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-  .AddJwtBearer(options =>
-  {
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-      ValidateIssuer = true,
-      ValidIssuer = jwtSettings.Issuer,
-      ValidateAudience = true,
-      ValidAudience = jwtSettings.Audience,
-      ValidateLifetime = true,
-      IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
-      ValidateIssuerSigningKey = true,
-    };
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+  .AddJwtBearer(options => {
+    var jwt = builder.Configuration.GetSection("Jwt").Get<JwtSettings>();
+    options.TokenValidationParameters = new TokenValidationParameters { /* … */ };
   });
 
 builder.Services.AddScoped<IMenuService, MenuService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-
-builder.WebHost.UseUrls("http://localhost:5000");
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-  app.UseSwagger();
-  app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   
 app.UseAuthorization();
 
 app.MapControllers();

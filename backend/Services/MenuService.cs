@@ -14,19 +14,19 @@ public class MenuService : IMenuService
         _context = context;
     }
     
-    public async Task<IEnumerable<MenuItemDto>> GetMenuItemsForHomePageAsync()
+    public async Task<IEnumerable<RestaurantMenuDto>> GetRestaurantMenuForHomePageAsync()
     {
     
-    var menuItems = await _context.MenuItems
-        .FromSql($"EXEC dbo.GetMenuItemsForHomePage")
+    var RestaurantMenus = await _context.RestaurantMenus
+        .FromSql($"EXEC dbo.GetRestaurantMenuForHomePage")
         .ToListAsync();
-    return menuItems.Select(menuItem => new MenuItemDto
+    return RestaurantMenus.Select(RestaurantMenu => new RestaurantMenuDto
     {
-        FoodId = menuItem.FoodId,
-        Name = menuItem.Name,
-        Price = menuItem.Price,
-        Available = menuItem.Available,
-        FoodImage = menuItem.FoodImage
+        FoodId = RestaurantMenu.FoodId,
+        Name = RestaurantMenu.Name,
+        Price = RestaurantMenu.Price,
+        Available = RestaurantMenu.Available,
+        FoodImage = RestaurantMenu.FoodImage
     });
     }
 }

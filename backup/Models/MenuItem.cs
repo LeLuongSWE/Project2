@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend.Models;
 
-public class RestaurantMenu
+public class MenuItem
 {
     [Key]
     [Column("food_id")]

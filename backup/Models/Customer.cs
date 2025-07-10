@@ -3,26 +3,26 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend.Models;
 
-public class Customer 
+class Customer 
 {
     [Key]
     [Column("customer_id")]
     public int CustomerId { get; set; }
     
     [Column("email")]
-    public required string Email { get; set; }
+    public string? Email { get; set; }
     
     [Column("password_hash")]
-    public required byte[] PasswordHash { get; set; }
+    public byte[]? PasswordHash { get; set; }
     
     [Column("password_salt")]
-    public required byte[] PasswordSalt { get; set; }
+    public byte[]? PasswordSalt { get; set; }
     
     [Column("full_name")]
-    public required string FullName { get; set; }
+    public string? FullName { get; set; }
     
     [Column("phone_number")]
-    public required string PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
     
     [Column("is_active")]
     public bool IsActive { get; set; }

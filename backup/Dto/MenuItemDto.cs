@@ -1,6 +1,6 @@
 namespace Backend.Dto;
 
-public class RestaurantMenuDto
+public class MenuItemDto
 {
     public int FoodId { get; set; }
     public decimal Price { get; set; }

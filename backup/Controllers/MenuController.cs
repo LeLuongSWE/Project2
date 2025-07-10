@@ -15,9 +15,9 @@ public class MenuController : ControllerBase
     }
     
     [HttpGet("home-page")]
-    public async Task<IActionResult> GetRestaurantMenuForHomePage()
+    public async Task<IActionResult> GetMenuItemsForHomePage()
     {
-        return Ok(await _service.GetRestaurantMenuForHomePageAsync());
+        return Ok(await _service.GetMenuItemsForHomePageAsync());
     }
 
 }   

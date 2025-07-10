@@ -2,25 +2,24 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Backend.Dto;
 
-class UserLoginDto 
+public class CustomerLoginDto 
 {
     [Required, EmailAddress]
-    public string? Email;
+    public required string Email;
 
     [Required]
-    public string? Password;
+    public required string Password;
 }
 
-class UserRegisterDto
+public class CustomerRegisterDto
 {
     [Required, EmailAddress]
-    public string? Email { get; set; }
+    public required string Email { get; set; }
 
     [Required]
-    public string? Password { get; set; }
-
-    [Required, Compare("Password")]
-    public string? ConfirmPassword { get; set; }
-
-    public string? FullName;
+    public required string Password { get; set; }
+    
+    [Required]
+    public required string PhoneNumber { get; set; }
+    public required string FullName;
 }

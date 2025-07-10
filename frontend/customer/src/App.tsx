@@ -6,6 +6,7 @@ import AboutPage from './pages/about-page/AboutPage';
 import ContactPage from './pages/contact-page/ContactPage';
 import SignInLayout from './pages/layout/SignInLayout';
 import SignInPage from './pages/signin-page/SignInPage';
+import SignUpPage from './pages/signup-page/SignUpPage';
 function App() {
 
   
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route element={<SignInLayout/>}>
           <Route path='/signin' element={<SignInPage />}/>
-          <Route path='/signup' />
+          <Route path='/signup' element={<SignUpPage />}/>
 
         </Route>
 

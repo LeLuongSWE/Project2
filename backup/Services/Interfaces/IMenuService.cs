@@ -4,5 +4,5 @@ namespace Backend.Services;
 
 public interface IMenuService
 {
-    Task<IEnumerable<RestaurantMenuDto>> GetRestaurantMenuForHomePageAsync();
+    Task<IEnumerable<MenuItemDto>> GetMenuItemsForHomePageAsync();
 }
