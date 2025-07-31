@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "redis1": {
+      "restored": true,
+      "restoreTime": "2025-07-29T11:17:13.8643183Z"
+    }
+  },
+  "parameters": {}
+}

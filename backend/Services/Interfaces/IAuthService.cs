@@ -6,4 +6,5 @@ public interface IAuthService
 {
     Task<string> LoginAsync(CustomerLoginDto dto);
     Task RegisterAsync(CustomerRegisterDto dto);
+
 }

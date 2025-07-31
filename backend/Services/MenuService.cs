@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Backend.Data;
 using Backend.Models;
 using Backend.Dto;
+using Microsoft.Data.SqlClient;
 
 namespace Backend.Services;
 
@@ -16,17 +17,28 @@ public class MenuService : IMenuService
     
     public async Task<IEnumerable<RestaurantMenuDto>> GetRestaurantMenuForHomePageAsync()
     {
-    
-    var RestaurantMenus = await _context.RestaurantMenus
-        .FromSql($"EXEC dbo.GetRestaurantMenuForHomePage")
-        .ToListAsync();
-    return RestaurantMenus.Select(RestaurantMenu => new RestaurantMenuDto
-    {
-        FoodId = RestaurantMenu.FoodId,
-        Name = RestaurantMenu.Name,
-        Price = RestaurantMenu.Price,
-        Available = RestaurantMenu.Available,
-        FoodImage = RestaurantMenu.FoodImage
-    });
+        List<RestaurantMenu> RestaurantMenus = new List<RestaurantMenu>();
+        try
+        {
+            RestaurantMenus = await _context.RestaurantMenus
+                .FromSql($"EXEC dbo.GetRestaurantMenuForHomePage")
+                .ToListAsync();
+        }
+        catch (SqlException ex)
+        {
+            Console.WriteLine($"SQL Error {ex.Number}: {ex.Message}");
+            if (ex.InnerException != null)
+                Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+            throw;
+        }
+
+        return RestaurantMenus.Select(RestaurantMenu => new RestaurantMenuDto
+        {
+            FoodId = RestaurantMenu.FoodId,
+            Name = RestaurantMenu.Name,
+            Price = RestaurantMenu.Price,
+            Available = RestaurantMenu.Available,
+            FoodImage = RestaurantMenu.FoodImage
+        });
     }
 }

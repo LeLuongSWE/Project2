@@ -14,7 +14,7 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Register(CustomerRegisterDto dto)
     {
         await _authService.RegisterAsync(dto);
-        return Created("", null);
+        return Created("Tao thanh cong", null);
     }
     
     [HttpPost("login")]
@@ -23,4 +23,5 @@ public class AuthController : ControllerBase
         var token = await _authService.LoginAsync(dto);
         return Ok(new {token});
     }
+    
 }

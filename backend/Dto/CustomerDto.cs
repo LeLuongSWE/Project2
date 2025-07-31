@@ -5,10 +5,10 @@ namespace Backend.Dto;
 public class CustomerLoginDto 
 {
     [Required, EmailAddress]
-    public required string Email;
+    public required string Email { get; set; }
 
     [Required]
-    public required string Password;
+    public required string Password { get; set; }
 }
 
 public class CustomerRegisterDto
@@ -21,5 +21,19 @@ public class CustomerRegisterDto
     
     [Required]
     public required string PhoneNumber { get; set; }
-    public required string FullName;
+    public required string FullName { get; set; }
+}
+
+public class CustomerEmailDto
+{
+    [Required, EmailAddress]
+    public required string Email { get; set; }
+}
+
+public class CustomerOtpDto 
+{
+    [Required]
+    public required string Otp { get; set; }
+    [Required, EmailAddress]
+    public required string Email { get; set; }
 }

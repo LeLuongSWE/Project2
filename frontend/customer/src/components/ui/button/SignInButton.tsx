@@ -1,15 +1,15 @@
 import { useNavigate } from "react-router-dom"
 
-function SigninButton(){
+function LoginButton(){
     const navigate = useNavigate()
-    const navigateToSignInPage = () => {
-        navigate("/signin")
+    const navigateToLoginPage = () => {
+        navigate("/login")
     }
     return (
-        <button className="button sign-in-button" onClick={navigateToSignInPage}>
+        <button className="button login-button" onClick={navigateToLoginPage}>
             ĐĂNG NHẬP/ ĐĂNG KÝ
         </button>
     )
 }
 
-export default SigninButton
+export default LoginButton
